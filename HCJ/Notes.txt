@@ -1,0 +1,12 @@
+﻿Bir sayfa olsun ki;
+
+adınını sooyadınız
+bulunduğunuz sehir gözüksün
+ama.
+
+ad bilgini 25px,italik gözüksün
+soyad kalın gözüksün 30px
+şehir 2 satır asada gözüksün
+üzerine tıkladığımda ilgili şehrin belediyesinin sayfasına gitsin ayrı bir sayfada..
+mümkünse style tanımlarınızı ayrı bir dosyada tutun.
+varsa resminizi de sayfaya koyunuz.
