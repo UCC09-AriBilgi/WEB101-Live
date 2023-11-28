@@ -74,6 +74,7 @@
     <Content Include="images\Image01.jpg" />
     <Content Include="images\Neom.jpg" />
     <Content Include="index.html" />
+    <Content Include="styles\styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
