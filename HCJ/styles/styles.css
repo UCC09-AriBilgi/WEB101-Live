@@ -31,17 +31,7 @@ a:hover {
     font-weight: 900;
 }
 
-div{
-    font-size:25px;
-    background-color:#009900;
-    color:white; /* div in içine yazılan yazının rengi */
-    /*margin : 13px;*/
-    margin-left:5px;
-    margin-top:10px;
-    margin-right:20px;
-    margin-bottom:50px;
-    border:2px solid red;
-}
+
 
 .div1 {
     font-size: 30px;
@@ -65,4 +55,79 @@ div{
     margin-right: 20px;
     margin-bottom: 50px;
     border: 2px solid white;
+}
+
+.baslik1{
+    color:white;
+    background-color:#009900;
+    width:400px;
+}
+
+h2 {
+    color: aqua;
+    background-color: #129911;
+    width: 300px;
+}
+
+p{
+    margin-left:30px;
+    color:antiquewhite;
+}
+
+.leftdiv {
+    float: left;
+    background-color: azure;
+}
+.leftdiv1 {
+    float: left;
+    background-color: gainsboro;
+    width: 40%;
+}
+.middlediv {
+    float: left;
+    background-color: gainsboro;
+
+}
+
+.rightdiv {
+    float: left;
+    background-color: coral;
+}
+.rightdiv1 {
+    float: left;
+    background-color: coral;
+    width: 40%;
+}
+
+div {
+    font-size: 14px;
+    background-color: #009900;
+    color: white; /* div in içine yazılan yazının rengi */
+    /*margin : 13px;*/
+/*    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 50px;*/
+    border: 2px solid red;
+    /*padding:1%;*/
+    margin-left:5px;
+    margin-bottom:20px;
+    width:30%;
+}
+
+th {
+    text-align:left;
+}
+
+.fcrmain{
+    margin-top:50px;
+    background-color:burlywood;
+    padding:30px;
+
+}
+
+.fcrtable{
+    background-color:aquamarine;
+    background-image:url('images\Neom.jpg')
+
 }
