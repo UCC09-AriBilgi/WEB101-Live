@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>.: Body elements :.</title>
+</head>
+<body>
+    <h1>BODY elements</h1>
+    <h3>Yazı şekillendirme</h3>
+    <!-- Yazı şekillendirme elementleri -->
+    <p>
+        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+    </p>
+    <!-- ilk p elementi sonrasında bir alt satırdan ve arada boşluk bulunan bir şekilde yazı devam edecektir. -->
+    <!-- Aradaki boşluk yaklaşık 15px dir -->
+    <p>
+        Acının kendisini seven, <b>sırf</b> acı olduğu için onu arayan ve ona <strong>sahip</strong> olmak isteyen kimse <u><em>yoktur...</em></u>
+    </p>
+
+    <!-- Yazı büyüklüğü ile ilgili bazı elementler -->
+    <p><small>Küçük boyutlu bir yazı...</small></p>
+    <p><span>Normal boyutlu bir yazı...</span></p>
+    <p><big>Büyük boyutlu bir yazı...</big></p>
+
+    <!-- Font ile ilgili bazı elementler -->
+    <p><font color="#FF0000">Kırmızı renkli bir yazı...</font></p>
+    <p><font color="Cyan">Cyan renkli bir yazı...</font></p>
+    <p><font face="verdana">Verdana font ailesi...</font></p>
+    <p><font size="6">6. seviye büyüklükte bir yazı...</font></p>
+    <p>
+        <font face="Tahoma" size="5" color="blue">
+            Tahoma yazı tipinde 5.seviye büyüklükte mavi renkli bir yazı...
+        </font>
+    </p>
+
+    <!-- Heading hiyerarşisi-->
+    <h1>1. Seviye Başlık...</h1>
+    <h2>2. Seviye Başlık...</h2>
+    <h3>3. Seviye Başlık...</h3>
+    <h4>4. Seviye Başlık...</h4>
+    <h5>5. Seviye Başlık...</h5>
+    <h6>6. Seviye Başlık...</h6>
+
+
+    <!-- Hizalama ve yerleştirme elementleri -->
+    <!-- Not : HTML, CSS olmadan tek başına hizalama ve farklı tarayıcılarla istenen hizalamaları korumada pek başarılı değil. -->
+    <br />
+
+    <p>
+        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+    </p>
+    <hr />
+    <p>
+        Acının kendisini seven, <b>sırf</b> acı olduğu için onu arayan ve ona <strong>sahip</strong> olmak isteyen kimse <u><em>yoktur...</em></u>
+    </p>
+    <br />
+    <br />
+
+    <!-- DIV elementi-->
+    <!-- align HTML5 de kullanılmıyor..CSS de float ile yapacağız-->
+    <div align="left">
+        <h1>1. Seviye Başlık</h1>
+        <p>
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+        </p>
+    </div>
+    <div align="center">
+        <h2>2. Seviye Başlık</h2>
+        <p>
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+        </p>
+    </div>
+    <div align="right">
+        <h3>3. Seviye Başlık</h3>
+        <p>
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+        </p>
+    </div>
+
+
+    <!-- TABLE elementi-->
+    <table border="1" cellpadding="5">
+        <tr>
+            <th>Besin</th>
+            <th>Miktar</th>
+            <th>Ücret</th>
+        </tr>
+        <tr>
+            <td>Patates</td>
+            <td>3 kg</td>
+            <td>10 TL</td>
+        </tr>
+        <tr>
+            <td>Soğan</td>
+            <td>3 kg</td>
+            <td>30 TL</td>
+        </tr>
+    </table>
+    <br />
+    <br />
+    <table border="1" cellpadding="5">
+        <tr>
+            <td>1 x 1</td>
+            <td>1 x 2</td>
+            <td>1 x 3</td>
+        </tr>
+        <tr>
+            <td>2 x 1</td>
+            <td colspan="2">2 x 2</td>
+        </tr>
+        <tr>
+            <td>3 x 1</td>
+            <td>3 x 2</td>
+            <td>3 x 3</td>
+        </tr>
+    </table>
+
+    <!-- IFRAME Etiketi-->
+    <iframe src="http://www.microsoft.com" width="350" height="200">
+    </iframe>
+    <br />
+    <br />
+
+    <!-- bazı karşılaşılabilecek elementler-->
+    <abbr title="Üzerine gelindiğindeki açıklama">Bu yazının üzerine gelin lütfen...</abbr>
+    <p>H<sub>2</sub>SO<sub>4</sub></p>
+    <br /><br />
+    <p>x<sup>2</sup>+y<sup>2</sup>=z<sup>2</sup></p>
+    <br /><br />
+
+    <fieldset>
+        <legend>Açıklama</legend>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </fieldset>
+
+
+    <!-- Herkes kendi için tek bir sayfa oluştursun. imageli falan-->
+
+</body>
+</html>

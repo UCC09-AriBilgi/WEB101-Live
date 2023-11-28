@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HTML Form & Inputs</title>
+</head>
+<body>
+    <form>
+        <p>Adınız ve Soyadınız : <input name="adsoyad" type="text" /></p>
+        <hr />
+        <p>Lütfen bir şehir seçiniz..</p>
+        <input name="rad1" type="radio" value="İstanbul" checked />İstanbul<br />
+        <input name="rad2" type="radio" value="Ankara"/>Ankara<br />
+        <input name="rad3" type="radio" value="İzmir" />İzmir<br />
+        <hr />
+        <p>
+            <input id="Text1" type="text" placeholder="Gideceğiniz şehri yazar mısınız?" />
+        </p>
+        <p>
+            <input id="Checkbox1" type="checkbox" />Uyandınız mı?
+        </p>
+        <hr />
+        <p>Günler
+            <select id="Select1">
+                <option>Pazartesi</option>
+                <option selected>Salı</option>
+                <option>Çarşamba</option>
+                <option>Perşembe</option>
+                <option>Cuma</option>
+                <option>Cumartesi</option>
+                <option>Pazar</option>
+
+            </select>
+        </p>
+        <hr />
+        <p>Hakkınızda biraz bilgi verir misiniz?</p>
+        <p>
+            <textarea id="TextArea1" rows="4" cols="50" placeholder="Hakkınızda bilgiler..."></textarea>
+        </p>
+        <input id="Submit1" type="submit" value="Git" /><br /><br />
+        <input id="Reset1" type="reset" value="Sıfırla" />
+    </form>
+
+</body>
+</html>
